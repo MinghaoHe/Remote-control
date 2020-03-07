@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DL-Library">
+      <UniqueIdentifier>{e0d29c9d-6dba-450a-9405-fa3287b1c6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Engine">
+      <UniqueIdentifier>{eeaa1633-406f-4407-8e99-43026fc0ebd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Login Information">
+      <UniqueIdentifier>{13e9f9e8-35f9-47c6-9eb7-aa4f7aa0fc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Engine\_CArray">
+      <UniqueIdentifier>{fcfa8c36-df5d-4289-8fdd-55686718525d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network Engine\Compression">
+      <UniqueIdentifier>{11a3bed1-f5d7-46a3-90df-50d49268a57e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instant Message">
+      <UniqueIdentifier>{b3c71b96-d521-4644-a78d-7e35d5f6d996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager Class">
+      <UniqueIdentifier>{b45c484d-cbe5-4b08-b120-112ef0cc1538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel Manager">
+      <UniqueIdentifier>{bb72289d-254f-47d2-9f87-1d7f9f3f0ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process Manager">
+      <UniqueIdentifier>{ce5569b6-6cc7-49e9-9ed3-39cd940e20fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cmd Manager">
+      <UniqueIdentifier>{ff81cca1-5ace-4c85-999f-0e733772ef27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window Manager">
+      <UniqueIdentifier>{409cd29a-1df8-4113-834c-ad69c74c4e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remote Control">
+      <UniqueIdentifier>{e6ec6e23-d98c-4f88-b020-f0f79c713f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remote Control\ScreenSpy">
+      <UniqueIdentifier>{114a6629-ce39-48d6-bc29-bc5206cfbeea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Manager">
+      <UniqueIdentifier>{33df9fca-509f-498f-bcd9-9677ce1e668a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service Manager">
+      <UniqueIdentifier>{4b50e85b-230c-4df8-9b54-f2e1eb987324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio Manager">
+      <UniqueIdentifier>{4fa32dbd-7bf3-4047-9c45-aa023bc8bfc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio Manager\Audio Class">
+      <UniqueIdentifier>{bb7c4569-fee0-4b47-abac-34f40a80ff39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Registry Manager">
+      <UniqueIdentifier>{9ef5e480-8766-4dcf-ba4c-6b3be4fd9213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Registry Manager\RegistryInterface">
+      <UniqueIdentifier>{e6c6eec6-32ea-4d78-a9cc-89dd37908666}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dll.h">
+      <Filter>DL-Library</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPClient.h">
+      <Filter>Network Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Login Information</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_CArray.h">
+      <Filter>Network Engine\_CArray</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>Network Engine\Compression</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>Network Engine\Compression</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Manager Class</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceMessage.h">
+      <Filter>Instant Message</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelManager.h">
+      <Filter>Kernel Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>Process Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdManager.h">
+      <Filter>Cmd Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Window Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteControl.h">
+      <Filter>Remote Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSpy.h">
+      <Filter>Remote Control\ScreenSpy</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>File Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceManager.h">
+      <Filter>Service Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Audio Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Audio Manager\Audio Class</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryManager.h">
+      <Filter>Registry Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryInterface.h">
+      <Filter>Registry Manager\RegistryInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dll.cpp">
+      <Filter>DL-Library</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DL-Library</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPClient.cpp">
+      <Filter>Network Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Login Information</Filter>
+    </ClCompile>
+    <ClCompile Include="_CArray.cpp">
+      <Filter>Network Engine\_CArray</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Manager Class</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceMessage.cpp">
+      <Filter>Instant Message</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelManager.cpp">
+      <Filter>Kernel Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>Process Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdManager.cpp">
+      <Filter>Cmd Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Window Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteControl.cpp">
+      <Filter>Remote Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSpy.cpp">
+      <Filter>Remote Control\ScreenSpy</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>File Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceManager.cpp">
+      <Filter>Service Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Audio Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Audio Manager\Audio Class</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryManager.cpp">
+      <Filter>Registry Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryInterface.cpp">
+      <Filter>Registry Manager\RegistryInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>DL-Library</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="zlib.lib">
+      <Filter>Network Engine\Compression</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dll.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\InstantMessage.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
